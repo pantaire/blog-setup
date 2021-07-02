@@ -45,14 +45,24 @@ web_analytics:
   
 bottomIcon: 
   - {
-    name: 'Github',   
+    name: '[matrix]',   
     iconLink: '/image/matrix-icon.png',  
+    toUrl: 'https://matrix.to/#/@vol:taire.de'
+  }
+  - {
+    name: 'Github',   
+    iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',  
     toUrl: 'https://github.com/pantaire'
   }
   - {
-    name: '[matrix]',   
-    iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',  
-    toUrl: 'https://matrix.to/#/@vol:taire.de'
+    name: 'Youtube',   
+    iconLink: '/image/youtube.png',  
+    toUrl: 'https://www.youtube.com/channel/UCLw2TGsSrJksST5d1UckZGA'
+  }
+  - {
+    name: 'Art Station',   
+    iconLink: '/image/artstation.png',  
+    toUrl: 'https://www.artstation.com/taire'
   }
 # 友情链接
 linksList:

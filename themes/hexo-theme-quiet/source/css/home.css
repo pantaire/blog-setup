@@ -67,6 +67,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+    background-color: #f1f5fb;
 }
 
 .move {
