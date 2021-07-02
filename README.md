@@ -5,4 +5,4 @@ public/*
 hexo-theme-quiet  
 _config.yml  
 
-...i guess that's about it
+...i guess that's about it  
