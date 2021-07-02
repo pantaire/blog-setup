@@ -1,0 +1,73 @@
+# 网站标题
+title: Taire's Blog
+# 网站标题后缀
+# suffix: Taire
+author: taire
+# Home page introduction (the sentence displayed at the top of the home page Logo) 
+home_describe: A COLLEGE STUDENT RUNNING ON BROCCOLI
+# 网站关键字
+keyword: taire,blender,webdev,blog
+is_article_img: false  #Whether to open the background image display of the article (random image) 
+# Seitenbeschreibung
+web_description: Taire's Blog
+
+menus_title:
+  home: HOME
+  archive: ARCHIVE
+  about: ABOUT
+  categories: CATEGORIES
+  tags: TAGS
+# 导航 （不建议修改）
+menus:
+  home: /
+  archive: /archives
+  categories: /categories
+  tags: /tags
+  about: /about
+  links: /links
+  
+# logo
+logo: /image/logo.png
+icon: /image/favicon.ico
+# Icons on each page
+topIcon:
+  homeIcon: "/image/logo.png"
+  archivesIcon: "/image/logo.png" #"https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
+  tagIcon: "/image/logo.png" #"https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
+  linksIcon: "/image/logo.png" #"https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
+  categoriesIcon: "/image/logo.png" #"https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
+  
+# 标签页显示多少个标签
+tagsNum: 1000
+# 网页访问统计
+web_analytics:  
+  enable: false 
+  
+bottomIcon: 
+  - {
+    name: 'Github',   
+    iconLink: '/image/matrix-icon.png',  
+    toUrl: 'https://github.com/pantaire'
+  }
+  - {
+    name: '[matrix]',   
+    iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',  
+    toUrl: 'https://matrix.to/#/@vol:taire.de'
+  }
+# 友情链接
+linksList:
+  - {
+    title: 'Taires Blog',
+    intro: 'A place to collect and share memories',
+    link: 'https://taire.de/',
+    image: '/image/avatar.jpg'
+  }
+# 文字内点击图片放大相关配置
+picture:
+  # 蒙版的颜色也就是 打开图片背景 显示的颜色
+  colour: '#333'
+  opacity: 0.5
+  # Picture angle is the angle at which the picture is displayed 
+  imgRadius: "10px"
+#The default thumbnail is not filled in (it can be an api or a fixed image)) 
+default_cover: "/image/placeholder.png"
