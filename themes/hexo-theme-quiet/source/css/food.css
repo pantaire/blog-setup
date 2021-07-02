@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url(OpenSans-Regular.ttf) format('truetype');
+}
 body {
-    font-family: Helvetica, Arial, Sans-Serif;
+    font-family: 'Open Sans';
   }
 .footer {
     display: flex;
