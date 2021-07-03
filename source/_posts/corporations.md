@@ -4,8 +4,8 @@ date: 2021-06-07 20:59:43
 category: art
 tags:
     - gimp
-    - dailyBlend
-    - logoMaking
+    - 'daily blend'
+    - 'logo making'
     - art
 excerpt: Part 1 of what may become a short film
 cover: /images/logos/Skycom.png

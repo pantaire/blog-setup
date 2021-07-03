@@ -37,9 +37,8 @@ topIcon:
   linksIcon: "/image/logo.png" #"https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
   categoriesIcon: "/image/logo.png" #"https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
   
-# 标签页显示多少个标签
 tagsNum: 1000
-# 网页访问统计
+# Web page visit statistics 
 web_analytics:  
   enable: false 
   
@@ -64,7 +63,7 @@ bottomIcon:
     iconLink: '/image/artstation.png',  
     toUrl: 'https://www.artstation.com/taire'
   }
-# 友情链接
+# Links
 linksList:
   - {
     title: 'Taires Blog',
@@ -72,9 +71,9 @@ linksList:
     link: 'https://taire.de/',
     image: '/image/avatar.jpg'
   }
-# 文字内点击图片放大相关配置
+# Click on the picture in the text to enlarge the relevant configuration 
 picture:
-  # 蒙版的颜色也就是 打开图片背景 显示的颜色
+  # Overlay
   colour: '#333'
   opacity: 0.5
   # Picture angle is the angle at which the picture is displayed 

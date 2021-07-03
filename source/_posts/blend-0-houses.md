@@ -4,7 +4,7 @@ category: art
 date: 2021-05-10 22:56:33
 tags:
     - blender
-    - dailyBlend
+    - 'daily blend'
     - art
 excerpt: One evening worth of creating in Blender
 cover: /images/village.png

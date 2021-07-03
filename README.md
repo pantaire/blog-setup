@@ -5,4 +5,9 @@ public/*
 hexo-theme-quiet  
 _config.yml  
 
-...i guess that's about it  
+...i guess that's about it
+
+# TO DO
+Bildanteil größer in Übersicht  
+Tabellen andere Titelfarbe und enger geschrieben, Zeilenumbrüche  
+About anpassen, kinda CV like
