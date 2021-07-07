@@ -4,7 +4,7 @@ category: art
 date: 2021-05-12 20:29
 tags:
     - blender
-    - 'daily blend'
+    - blendaily
     - art
 excerpt: One evening worth of creating in Blender
 cover: /images/templeV1.png

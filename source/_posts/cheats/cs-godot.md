@@ -3,9 +3,9 @@ title: Cheat Sheet - Godot
 date: 2021-05-05 22:56:42
 category: cheatsheet
 tags:
-    - 'cheat sheet'
+    - cheatsheet
     - godot
-    - 'game dev'
+    - games
     - dev
 excerpt: Understand and use Godot more effectively
 cover: ''

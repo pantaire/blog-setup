@@ -4,7 +4,7 @@ title: Interdimensional Pyramid - Blender Diary
 category: art
 tags:
     - blender
-    - 'daily blend'
+    - blendaily
     - art
     - video
 excerpt: One evening worth of creating in Blender

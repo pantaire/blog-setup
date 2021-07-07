@@ -4,7 +4,7 @@ date: 2021-05-05 22:56:33
 category: cheatsheet
 tags:
     - blender
-    - 'cheat sheet'
+    - cheatsheet
     - art
     - modeling
 excerpt: Navigate Blender easily

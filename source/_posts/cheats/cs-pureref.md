@@ -4,7 +4,7 @@ date: 2021-07-04 22:56:33
 category: cheatsheet
 tags:
     - blender
-    - 'cheat sheet'
+    - cheatsheet
     - art
     - modeling
 excerpt: How to use Pureref, copy pasta from their help page

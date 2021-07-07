@@ -11,3 +11,5 @@ _config.yml
 Bildanteil größer in Übersicht  
 Tabellen andere Titelfarbe und enger geschrieben, Zeilenumbrüche  
 About anpassen, kinda CV like
+Überschriften ab h3 abwärts mehr Abstand zu Seitenlinie
+tags anpassen (ein wort)
