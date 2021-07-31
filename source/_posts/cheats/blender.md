@@ -19,6 +19,7 @@ cover: ''
 [LC] = left click   
 [MM] = middle mouse button (scrolling wheel)  
 
+
 # Access Menus  
 | [Shift] + [A] 	|            open add menu (object mode only)            	|
 |-------------	    |------------------------------------------------------ 	|
@@ -27,6 +28,8 @@ cover: ''
 | [F3]          	| open search menu                                       	|
 | [N]           	| open property menu (menu on the right)                   	|  
 | [~]           	| open pie menu for viewport (also accesible via numpad) 	|   
+| [A]           	| open mask menu (in Sculpt Mode)	                        |   
+
 
 # Selecting  
 | [A]          | Select everything / whole object                                       |
@@ -37,6 +40,7 @@ cover: ''
 | [H]          | Hide selected object                                                   |
 | [Alt] + [H]  | Show hidden object                                                     |
 | [Alt] + [LC] | Select ring/loop                                                       |
+
 
 # Object Manipulation  
 | Shortcut           | Command                                                                                                  |
@@ -57,14 +61,18 @@ cover: ''
 | [S]                | scale active object                                                                                      |
 | [E]                | Extrude (drag part of the object)                                                                        |
 | [X]                | delete active object                                                                                     |
+| [Shift] + [R]      | drag mouse to change voxel resolution (kinda like dyntopo, but cool)                                     |  
+
 
 # Vertices  
-| Shortcut    | Command                                  |
-|-------------|------------------------------------------|
-| [Alt] + [M] | Merge Vertices (must be in edit mode)    |
-| [K]         | Knife (cut vertex)                       |
-| [K] + [Z]   | Cut along midline of connecting vertices |
-| [K] + [Alt] | Change number of cutting points          |
+| Shortcut          | Command                                  |
+|-------------------|------------------------------------------|
+| [Alt] + [M]       | Merge Vertices (must be in edit mode)    |
+| [K]               | Knife (cut vertex)                       |
+| [K] + [Z]         | Cut along midline of connecting vertices |
+| [K] + [Alt]       | Change number of cutting points          |
+| [S] + [Z] + [0]   | Flatten selected points along z axis     |
+
 
 # Viewport/Camera  
 | Shortcut         | Command                                                                  |
@@ -88,11 +96,22 @@ cover: ''
 | [Shift] + [C]  | move cursor to center ( coordinates: 0,0,0)           |
 | [Shift] + [S]  | open cursor pie menu                                  |
 
+
 # Modifiers
 Always apply from top down, and don't forget to apply!  
 
+
+## Boolean  
+| Setting    | What it does                                                                                                                          |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Intersect  | takes the two objects and keeps only the volume that they both occupy, removing everything else                                       |
+| Union      | takes both objects and tries to fuse them together where they intersect, adding the volumes together and create one object            |
+| Difference | takes one object and cuts out the volume that it shares with another object, “cutting” into it based on the shape of the first object |
+
+
 # Edit Mode
 [Ctrl] + [N] (+[Shift]) Recalculate Normals
+
 
 # Simulation
 Cache: bring to replay to get a first overview over the simulation  
@@ -100,9 +119,11 @@ Apply changes/empty cache: Click on a setting and hit enter, cache is emptied au
 Bake: Set from [replay] to [modular], bake Fluid first  
 move down the line and bake mesh, particles,... (must be checked to be effective)  
 
+
 # Sculpting
-(hotkeys are visible on hover)
+Hotkeys are visible on hover
 If brush seems to be not round, apply scale in Object mode  
+Masks are your friend, use them
 
 | Shortcut | Command                                                                 |
 |----------|-------------------------------------------------------------------------|
@@ -112,12 +133,14 @@ If brush seems to be not round, apply scale in Object mode
 | [C]      | Clay Mode                                                               |
 | [G]      | Grab Mode                                                               | 
 
+
 # Merging stuff  
 [Ctrl] + [J]            Join Objects  
 Sculptmode -> Remesh    to delete inner faces and get quads (but kindof destroys topology)  
 [Ctrl] + [Shift] + [B]  join meshes, booltool must be enabled (Edit -> Preferences -> Booltool)  
                             - union: delete inner mesh  
                             - intersect: only keep middle  
+
 
 # UV / Texture Paint
 Edit Mode, select Everyting [A]  
@@ -126,8 +149,10 @@ Workspace: Add texture based on roughness, metallic, base colour, ...
 start drawing  
 [S] sample colour  
 
+
 # Curves
 Array Modifier to curve: Add Array mod to object, generate a curve. Add curve mod to object, pick curve as origin. Adjust array object count on object to fit the curve  
+
 
 # 2D Animation / Grease Pencil
 | Shortcut              | Command                                                                                     |
@@ -159,9 +184,11 @@ use normal modification (g, s, e, ...) to modify timeline and keyframes
 | [C]           | Circle Select      |
 | [Shift] + [R] | Repeat last action |
 
+
 # Retopo Hacks
 Mouth corners: J to split, Subdivide to redirect upper lip loop to lower lip loop (instead of down to chin)
 Never have 3 or 5 connection vertices on a crease. Instead, insert a clean line for the crease and move the 3s or 5s out-/inwards.
+
 
 # Edit Texture in Krita
 Prerequisites: Preferences > File Paths > Applications > Image Editor > set to Krita.exe location  
@@ -170,12 +197,12 @@ Tab into Texture Paint Mode, open side (N) menu, navigate to Tool > Options > Ex
 Set Screen Grab size, choose Quick Edit, wait for Krita to open  
 Make changes, save, go back to Blender, click Apply in same menu
 
-# Geometry Nodes
 
+# Geometry Nodes  
 Point Instance      adds a point on every vertex
 
-# Vocabs
 
+# Vocabs  
 Dyntopo         adds/removes details on the fly, regular sculpting only affects shape of mesh  
 Upres factor    adds details to simulations  
 
@@ -187,6 +214,6 @@ Upres factor    adds details to simulations
 | Animation Nodes       | idk                              |
 | Bool Tool             | boolean stuff                    |
 | Rigify                | rigs stuff                       |
-| fSpy                  | finds focal center & aligns lines |
+| fSpy                  | find focal center & align lines  |
 | MakeHuman             | generates humanoids like in GTA  |
 | PureRef               | arrange and collect reference    |
