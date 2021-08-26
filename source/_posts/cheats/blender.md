@@ -153,6 +153,13 @@ start drawing
 # Curves
 Array Modifier to curve: Add Array mod to object, generate a curve. Add curve mod to object, pick curve as origin. Adjust array object count on object to fit the curve  
 
+# Rigging
+Add Human rig with rigify (comes pre-installed, but needs to be activated)  
+Scale to model, apply scale in Object Properties (Ctrl + A -> Apply all transforms)  
+Rigging Tab: Click generate rig  
+Select all model parts, then select rig last, hit Ctrl + P -> Set parent with automatic weights  
+Switch to Pose Mode to move things around   
+Press N for more options, e.g. Not making limbs stretch when moving the handle too much  
 
 # 2D Animation / Grease Pencil
 | Shortcut              | Command                                                                                     |
